@@ -1,4 +1,4 @@
-<section class="gt-services">
+<section class="gt-services" id="services">
   <style>
     :root {
       --gt-primary: #2563eb;

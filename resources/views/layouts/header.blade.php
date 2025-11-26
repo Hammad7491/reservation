@@ -9,6 +9,11 @@
       --gt-border: rgba(148, 163, 184, 0.35);
     }
 
+    /* Smooth scroll for in-page links */
+    html {
+      scroll-behavior: smooth;
+    }
+
     /* === HEADER WRAPPER === */
     .gt-header {
       position: sticky;
@@ -299,7 +304,7 @@
   <div class="gt-shell">
     <div class="gt-bar">
       <!-- Brand -->
-      <a href="/" class="gt-brand">
+      <a href="#home" class="gt-brand">
         <div class="gt-logo">
           <!-- Replace with your own logo -->
           <img src="global-logo.png" alt="Global Tours Logo">
@@ -317,14 +322,19 @@
 
       <!-- Navigation -->
       <nav class="gt-nav">
-        <a href="/" class="gt-nav-link gt-active">Home</a>
-        <a href="/about" class="gt-nav-link">About Us</a>
-        <a href="/services" class="gt-nav-link">Services</a>
-        <a href="/routes" class="gt-nav-link">Routes</a>
+        <!-- 1: Home -->
+        <a href="#home" class="gt-nav-link gt-active">Home</a>
+        <!-- 2: Services -->
+        <a href="#services" class="gt-nav-link">Services</a>
+        <!-- 3: Routes -->
+        <a href="#routes" class="gt-nav-link">Routes</a>
+        <!-- 4: About Us -->
+        <a href="#about" class="gt-nav-link">About Us</a>
 
-        <a href="tel:+18339011182" class="gt-phone-btn">
-          <span>(833) 901-1182</span>
+                <a href="tel:+18883609712" class="gt-phone-btn">
+          <span>(888) 360-9712</span>
         </a>
+
       </nav>
     </div>
   </div>

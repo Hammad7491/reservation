@@ -1,4 +1,4 @@
-<section class="gt-hero">
+<section class="gt-hero" id="home">
   <style>
     :root {
       --gt-primary: #2563eb;   /* blue */
@@ -306,14 +306,15 @@
 
     <!-- CTA buttons -->
     <div class="gt-hero-cta-row">
-      <a href="#book-flight" class="gt-hero-cta-primary">
+      <a href="tel:+18883609712" class="gt-hero-cta-primary">
         Book Your Flight
         <span class="gt-cta-icon">➜</span>
       </a>
 
-      <a href="tel:+18339011182" class="gt-hero-cta-secondary">
-        CALL (833) 901-1182
-      </a>
+              <a href="tel:+18883609712" class="gt-phone-btn">
+          <span>(888) 360-9712</span>
+        </a>
+
     </div>
   </div>
 </section>

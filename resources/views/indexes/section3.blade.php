@@ -1,4 +1,4 @@
-<section class="gt-routes">
+<section class="gt-routes" id="routes">
   <style>
     :root {
       --gt-primary: #2563eb;
