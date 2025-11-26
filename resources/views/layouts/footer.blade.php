@@ -259,11 +259,11 @@
         <h4>Quick Links</h4>
         <ul class="gt-footer-links-list">
           <li><a href="/">Home</a></li>
-          <li><a href="/about">About Us</a></li>
-          <li><a href="/services">Services</a></li>
-          <li><a href="/routes">Routes</a></li>
-          <li><a href="/terms">Terms &amp; Conditions</a></li>
-          <li><a href="/privacy">Privacy Policy</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#routes">Routes</a></li>
+          <li><a href="{{ route('terms') }}">Terms &amp; Conditions</a></li>
+          <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
         </ul>
       </div>
 

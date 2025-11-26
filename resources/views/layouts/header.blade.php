@@ -60,17 +60,18 @@
       height: 40px;
       border-radius: 12px;
       overflow: hidden;
-      background: radial-gradient(circle at top, #38bdf8, #2563eb);
+      background: radial-gradient(circle at 0 0, #38bdf8, #1d4ed8);
       display: flex;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
     }
 
-    .gt-logo img {
+    /* SAME PLANE STYLE AS FOOTER */
+    .gt-logo-icon {
       width: 70%;
       height: 70%;
-      object-fit: contain;
+      color: #eff6ff;
     }
 
     .gt-brand-text {
@@ -311,8 +312,8 @@
       <!-- Brand -->
       <a href="{{ url('/') }}" class="gt-brand">
         <div class="gt-logo">
-          <!-- Replace with your own logo -->
-          <img src="global-logo.png" alt="Global Tours Logo">
+          <!-- SAME AIRPLANE SVG AS FOOTER -->
+          <div class="gt-footer-logo">✈️</div>
         </div>
         <div class="gt-brand-text">
           <span class="gt-brand-main">Globel Tours</span>
