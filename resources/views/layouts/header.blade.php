@@ -305,6 +305,7 @@
   @php
     $isHome  = request()->is('/');
     $isAbout = request()->routeIs('aboutus');
+    $isTerms = request()->routeIs('terms');
   @endphp
 
   <div class="gt-shell">
@@ -312,8 +313,8 @@
       <!-- Brand -->
       <a href="{{ url('/') }}" class="gt-brand">
         <div class="gt-logo">
-          <!-- SAME AIRPLANE SVG AS FOOTER -->
-          <div class="gt-footer-logo">✈️</div>
+          <!-- SAME AIRPLANE STYLE (can reuse emoji or SVG if you want) -->
+          <span class="gt-logo-icon">✈️</span>
         </div>
         <div class="gt-brand-text">
           <span class="gt-brand-main">Globel Tours</span>
@@ -346,6 +347,11 @@
         <!-- 4: About Us (separate page) -->
         <a href="{{ route('aboutus') }}" class="gt-nav-link {{ $isAbout ? 'gt-active' : '' }}">
           About Us
+        </a>
+
+        <!-- 5: Terms & Conditions (separate page) -->
+        <a href="{{ route('terms') }}" class="gt-nav-link {{ $isTerms ? 'gt-active' : '' }}">
+          Terms &amp; Conditions
         </a>
 
         <a href="tel:+18883609712" class="gt-phone-btn">
