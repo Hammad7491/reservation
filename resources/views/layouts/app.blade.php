@@ -13,12 +13,13 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<meta name="author" content="Jthemes"/>	
-		<meta name="description" content="Treko - Software & Startup Premium Landing Page Template"/>
-		<meta name="keywords" content="Responsive, HTML5 Template, Jthemes, Landing, Startup, Software, Business, Company, Creative, Freelancers">	
+		<meta name="description" content="GlobelTours Reservation connects you with trusted travel agents to book flights and travel deals by phone. 24/7 assistance for domestic and international trips.">
+		<meta name="keywords" content="GlobelTours Reservation, Global Tours, flight booking by phone, travel agents, domestic flights, international flights, reservations, 24/7 support">
+
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 				
   		<!-- SITE TITLE -->
-		<title>Treko - Software & Startup Premium Landing Page Template</title>
+		<title>GlobelTours | Phone-Based Flight Booking</title>
 							<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- Animate.css for flip animations -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />

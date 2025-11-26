@@ -315,7 +315,7 @@
           <img src="global-logo.png" alt="Global Tours Logo">
         </div>
         <div class="gt-brand-text">
-          <span class="gt-brand-main">Global Tours</span>
+          <span class="gt-brand-main">Globel Tours</span>
           <span class="gt-brand-sub">Premium Travel & Reservations</span>
         </div>
       </a>
