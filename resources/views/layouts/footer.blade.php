@@ -245,7 +245,7 @@
         <div class="gt-footer-logo-row">
           <div class="gt-footer-logo">✈️</div>
           <div>
-            <div class="gt-footer-brand-name">GLOBAL TOURS RESERVATION</div>
+            <div class="gt-footer-brand-name">GLOBAL TOURS</div>
           </div>
         </div>
         <p class="gt-footer-tagline">
