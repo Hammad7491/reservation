@@ -301,10 +301,15 @@
     }
   </style>
 
+  @php
+    $isHome  = request()->is('/');
+    $isAbout = request()->routeIs('aboutus');
+  @endphp
+
   <div class="gt-shell">
     <div class="gt-bar">
       <!-- Brand -->
-      <a href="#home" class="gt-brand">
+      <a href="{{ url('/') }}" class="gt-brand">
         <div class="gt-logo">
           <!-- Replace with your own logo -->
           <img src="global-logo.png" alt="Global Tours Logo">
@@ -323,18 +328,28 @@
       <!-- Navigation -->
       <nav class="gt-nav">
         <!-- 1: Home -->
-        <a href="#home" class="gt-nav-link gt-active">Home</a>
-        <!-- 2: Services -->
-        <a href="#services" class="gt-nav-link">Services</a>
-        <!-- 3: Routes -->
-        <a href="#routes" class="gt-nav-link">Routes</a>
-        <!-- 4: About Us -->
-        <a href="#about" class="gt-nav-link">About Us</a>
-
-                <a href="tel:+18883609712" class="gt-phone-btn">
-          <span>(888) 360-9712</span>
+        <a href="{{ url('/') }}" class="gt-nav-link {{ $isHome ? 'gt-active' : '' }}">
+          Home
         </a>
 
+        <!-- 2: Services (scroll to services on home page) -->
+        <a href="{{ url('/#services') }}" class="gt-nav-link">
+          Services
+        </a>
+
+        <!-- 3: Routes (scroll to routes on home page) -->
+        <a href="{{ url('/#routes') }}" class="gt-nav-link">
+          Routes
+        </a>
+
+        <!-- 4: About Us (separate page) -->
+        <a href="{{ route('aboutus') }}" class="gt-nav-link {{ $isAbout ? 'gt-active' : '' }}">
+          About Us
+        </a>
+
+        <a href="tel:+18883609712" class="gt-phone-btn">
+          <span>(888) 360-9712</span>
+        </a>
       </nav>
     </div>
   </div>

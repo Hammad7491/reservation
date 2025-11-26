@@ -11,3 +11,5 @@ Route::get('/', [PagesController::class, 'index'])
          ->name('index');
 
 
+Route::get('/aboutus', [PagesController::class, 'aboutus'])
+         ->name('aboutus');
