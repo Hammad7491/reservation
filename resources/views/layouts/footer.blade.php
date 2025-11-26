@@ -292,9 +292,9 @@
         Copyright © 2025 Globeltoursreservation.com – All Rights Reserved.
       </div>
       <div class="gt-footer-bottom-links">
-        <a href="/terms">Terms &amp; Conditions</a>
+        <a href="{{ route('terms') }}">Terms &amp; Conditions</a>
         <span>•</span>
-        <a href="/privacy">Privacy Policy</a>
+        <a href="{{ route('privacy') }}">Privacy Policy</a>
       </div>
     </div>
   </div>

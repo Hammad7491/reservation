@@ -13,3 +13,13 @@ Route::get('/', [PagesController::class, 'index'])
 
 Route::get('/aboutus', [PagesController::class, 'aboutus'])
          ->name('aboutus');
+         
+
+
+
+         Route::get('/privacy', [PagesController::class, 'privacy'])
+         ->name('privacy');
+
+
+         Route::get('/terms', [PagesController::class, 'terms'])
+         ->name('terms');
